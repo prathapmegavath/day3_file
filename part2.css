@@ -1,0 +1,32 @@
+ul{
+    background-color:lightseagreen;
+    color: white;
+}
+[data-category]{
+    padding-left: 10px;
+    
+}
+[data-category="Appliances"]{
+    background-color: green;
+    list-style-type: upper-alpha;
+    color: aliceblue;
+}
+
+[data-category="connections"]{
+    background-color: green;
+    list-style: decimal;
+}
+
+[data-category="Electronics"]{
+    background-color: red;
+    list-style-type: upper-alpha;
+}
+
+[data-category="Clothing"]{
+    background-color: green;
+    list-style-type: decimal;
+}
+[data-category="media"]{
+    background-color:red;
+    list-style-type: decimal;
+}
